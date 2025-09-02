@@ -1,8 +1,8 @@
 import express from "express";
 import Thread from "../models/Thread.js";
 import getOpenAIAPIResponse from "../utils/openai.js";
-const router=express.Router();
 
+const router = express.Router();
 
 //test
 router.post("/test", async(req, res) => {
@@ -20,8 +20,7 @@ router.post("/test", async(req, res) => {
     }
 });
 
-
-//get all threads
+//Get all threads
 router.get("/thread", async(req, res) => {
     try {
         const threads = await Thread.find({}).sort({updatedAt: -1});
@@ -50,8 +49,6 @@ router.get("/thread/:threadId", async(req, res) => {
     }
 });
 
-
-
 router.delete("/thread/:threadId", async (req, res) => {
     const {threadId} = req.params;
 
@@ -69,7 +66,6 @@ router.delete("/thread/:threadId", async (req, res) => {
         res.status(500).json({error: "Failed to delete thread"});
     }
 });
-
 
 router.post("/chat", async(req, res) => {
     const {threadId, message} = req.body;
@@ -104,6 +100,8 @@ router.post("/chat", async(req, res) => {
         res.status(500).json({error: "something went wrong"});
     }
 });
+
+
 
 
 export default router;
