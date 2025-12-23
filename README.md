@@ -102,6 +102,9 @@ DELETE	/api/chats/:id	Delete a specific chat
 
 (Endpoints may vary based on Backend folder implementation.)
 
+📸 Screenshots
+
+
 
 🚀 Deployment
 
