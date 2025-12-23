@@ -102,7 +102,15 @@ DELETE	/api/chats/:id	Delete a specific chat
 
 (Endpoints may vary based on Backend folder implementation.)
 
-📸 Screenshots
+## 📸 Screenshots
+
+![Screenshot 160522](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160522.png?raw=true)
+![Screenshot 160553](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160553.png?raw=true)
+![Screenshot 160604](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160604.png?raw=true)
+![Screenshot 160616](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160616.png?raw=true)
+![Screenshot 160623](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160623.png?raw=true)
+![Screenshot 160630](https://github.com/Shatadru281/vision-gpt/blob/main/Screenshot%202025-12-23%20160630.png?raw=true)
+
 
 
 
