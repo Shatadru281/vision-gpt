@@ -66,12 +66,12 @@ MONGO_URL=your_mongodb_connection_string
 PORT=5000
 
 4. Start backend
-npm start
+   node server.js
 
 
 The backend will start at:
 
-http://localhost:5000
+http://localhost:8000
 
 5. Run Frontend
 
@@ -79,12 +79,12 @@ In another terminal:
 
 cd Frontend
 npm install
-npm start
+npm run dev
 
 
 Open your browser:
 
-http://localhost:3000
+http://localhost:5173
 
 🧪 Testing
 
